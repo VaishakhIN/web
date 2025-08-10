@@ -222,6 +222,22 @@ body.dark-mode .theme-btn {
   height: 500px;
   width: 400px;
 }
+.me {
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin: 20px; /* small margin for spacing */
+}
+
+@media (max-width: 768px) {
+  .me {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    max-width: 80%; /* image resizes for smaller screens */
+  }
+}
+
 .controlframe{
   border-bottom: 1px solid rgba(91, 90, 90, 0.411);
   padding-bottom: 15px;
@@ -660,3 +676,4 @@ a {
     padding: 30px 10px;
   }
 }
+
