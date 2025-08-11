@@ -290,7 +290,7 @@ a {
 .text{
   padding-left: 55px;
   font-size: normal;
-
+  font-weight: normal;
 }
 .left{
   font-size: normal;
@@ -672,6 +672,7 @@ a {
     padding: 30px 10px;
   }
 }
+
 
 
 
