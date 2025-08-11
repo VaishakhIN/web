@@ -283,14 +283,13 @@ a {
   text-decoration: none;
 }
 .text0{
-  font-size: large;
+  font-size: normal;
   letter-spacing: 1.5px;
 }
 
 .text{
-  font-weight: bold;
   padding-left: 55px;
-  font-size: large;
+  font-size: normal;
   letter-spacing: 1.5px;
 
 }
@@ -675,5 +674,6 @@ a {
     padding: 30px 10px;
   }
 }
+
 
 
