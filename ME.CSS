@@ -284,18 +284,16 @@ a {
 }
 .text0{
   font-size: normal;
-  letter-spacing: 1.5px;
+  
 }
 
 .text{
   padding-left: 55px;
   font-size: normal;
-  letter-spacing: 1.5px;
 
 }
 .left{
-  font-size: large;
-  letter-spacing: 1.5px;
+  font-size: normal;
   padding-left: 55px
 }
 .skills{
@@ -674,6 +672,7 @@ a {
     padding: 30px 10px;
   }
 }
+
 
 
 
