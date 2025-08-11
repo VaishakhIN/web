@@ -305,7 +305,7 @@ a {
   text-shadow:
     0 0 1px black;
     padding-left: 20px;
-    padding-top: 125px;
+    padding-top: 50px;
     font-size: 3em;
     letter-spacing: 0.5px;
 }
@@ -673,6 +673,7 @@ a {
     padding: 30px 10px;
   }
 }
+
 
 
 
