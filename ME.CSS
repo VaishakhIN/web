@@ -76,7 +76,7 @@ body {
     font-weight: bold;
     text-shadow:
     0 0 1px black;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 5px;
     letter-spacing: 0.5px;
     color: hotpink;
@@ -288,13 +288,13 @@ a {
 }
 
 .text{
-  padding-left: 55px;
+ padding-left: 20px;
   font-size: normal;
   font-weight: normal;
 }
 .left{
   font-size: normal;
-  padding-left: 55px
+ padding-left: 20px;
 }
 .skills{
   color: deeppink;
@@ -303,7 +303,7 @@ a {
   font-weight: bold;
   text-shadow:
     0 0 1px black;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 125px;
     font-size: 3em;
     letter-spacing: 0.5px;
@@ -360,7 +360,7 @@ a {
   width: 45px; 
   height: 45px;
   background-color: transparent;
-  padding-left: 55px;
+  padding-left: 20px;
   color: hotpink;
   font-size: 20px; 
   transition: 0.3s ease;
@@ -561,7 +561,7 @@ a {
 
 /* Grid Layout */
 .project-grid {
-  padding-left: 65px;
+  padding-left: 20px;
   padding-right: 65px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -672,6 +672,7 @@ a {
     padding: 30px 10px;
   }
 }
+
 
 
 
