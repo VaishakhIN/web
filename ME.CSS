@@ -218,8 +218,9 @@ body.dark-mode .theme-btn {
 }
 .me {
   max-width: 400px;
-  height: auto;
+  max-height: 400px;
   float: right;
+  border-radius: 50%;
   margin: 0 150px 0 0; /* right spacing only */
   vertical-align: middle;
 }
@@ -679,3 +680,4 @@ a {
     padding: 30px 10px;
   }
 }
+
