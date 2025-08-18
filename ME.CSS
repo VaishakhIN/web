@@ -1,5 +1,5 @@
 body.light-mode {
-  background-color: white;
+  background-color: #F9FAFB;
   color: black;
 }
 body.light-mode .head1 {
@@ -13,29 +13,30 @@ body.dark-mode .closing {
 }
 
 body.light-mode.project-card{
-  background-color: #000000;
+  background-color: #0D1117;
   color: white;
 }
 body.light-mode.project-card{
-  background-color: white;
+  background-color:#F9FAFB;
   color: #000000;
 }
 body.dark-mode {
-  background-color: #000000;
+  background-color: #0D1117;
   color: white;
 }
 body.dark-mode .head1 {
   color: white;
 }
 body.dark-mode {
-  background-color: #000000;
+  background-color: #0D1117;
   color: white;
 }
 body.dark-mode {
-  --bg-color: #000000;
+  --bg-color: #0D1117;
   --text-color: #eee;
 }
 body {
+  color: #C9D1D9;
   padding-right: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--bg-color);
@@ -45,10 +46,10 @@ body {
     height: auto;
 }
 body.dark-mode .controlframe {
-  background-color: #000000;
+  background-color: #0D1117;
 }
 body.light-mode .controlframe {
-  background-color: white;
+  background-color: #F9FAFB;
 }
 body {
   margin: 0;
@@ -60,7 +61,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff; 
+  background-color: #F9FAFB; 
   transition: background-color 0.3s ease;
   color: white;
   padding: 20px 10px;
@@ -81,7 +82,7 @@ body {
     padding-left: 20px;
     padding-top: 5px;
     letter-spacing: 0.5px;
-    color: hotpink;
+    color:#00F5D4;
 } 
 @media (max-width: 768px) {
   .controlframe {
@@ -164,7 +165,7 @@ body {
   align-items: center;
   width: 500px;         
   height: 35px;         
-  background-color: hotpink;  
+  background-color: #00F5D4;  
   border-radius: 50px; 
   padding: 0 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
@@ -187,10 +188,10 @@ body {
   transform: scale(1.1);
 }
 body.light-mode .theme-btn:hover {
-  color: deeppink;
+  color: #00F5D4;
 }
 body.dark-mode .theme-btn:hover {
-  color: deeppink;
+  color: #00F5D4;
 }
 body.light-mode .theme-btn {
   color: black;
@@ -214,7 +215,7 @@ body.dark-mode .theme-btn {
     padding-top: 10px;
     font-size: 2em;
     letter-spacing: 0.5px;
-    color: hotpink;
+    color: #00F5D4;
 }
 .me {
   max-width: 400px;
@@ -250,11 +251,10 @@ body.dark-mode .theme-btn {
   background: black;
 }
 .resume{
-
   padding-left: 20px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ff69b4;
+  background-color: #00F5D4;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -262,7 +262,7 @@ body.dark-mode .theme-btn {
   transition: background 0.3s ease;
 }
 .resume:hover{
-  background-color: #ff1493; 
+  background-color: #00F5D4; 
   color: #ffffff;
 }
 .navbar-container{
@@ -288,9 +288,7 @@ a {
 }
 .text0{
   font-size: normal;
-  
 }
-
 .text{
  padding-left: 20px;
   font-size: normal;
@@ -301,14 +299,13 @@ a {
  padding-left: 20px;
 }
 .skills{
-  color: deeppink;
+  color: #00F5D4;
   border-color: #ffffff;
   border-width: 100px;
   font-weight: bold;
   text-shadow:
     0 0 1px black;
     padding-left: 20px;
-    
     font-size: 3em;
     letter-spacing: 0.5px;
 }
@@ -333,19 +330,15 @@ a {
   justify-content: center;
   text-align: center;
   padding: 10px;
-
-  border: 3px solid hotpink;
-  box-shadow: 0 0 15px rgb(96, 27, 58), 0 0 30px rgba(45, 15, 20, 0.5);
+  border: 3px solid #00F5D4;
+  box-shadow: 0 0 15px #1c564f, 0 0 30px rgba(45, 15, 20, 0.5);
 }
-
-
 .skill-item img {
   width: 50px;
   height: 50px;
   object-fit: contain;
   margin-bottom: 5px;
 }
-
 .skill-item p {
   margin: 0;
   font-size: 14px;
@@ -356,7 +349,6 @@ a {
   gap: 45px;
   justify-content: flex-start; 
 }
-
 .icon-btn {
   display: flex;
   align-items: center;
@@ -365,17 +357,16 @@ a {
   height: 45px;
   background-color: transparent;
   padding-left: 20px;
-  color: hotpink;
+  color: #00F5D4;
   font-size: 20px; 
   transition: 0.3s ease;
 }
-
 .icon-btn:hover {
-  color: deeppink;
+  color: #00F5D4;
   transform: scale(1.1);
 }
 .clr{
-  color: deeppink;
+  color: #00F5D4;
 }
 .contact-section {
     max-width: 600px;
@@ -409,7 +400,7 @@ a {
   .contact-section button {
     width: 100%;
     padding: 12px;
-    background: hotpink;
+    background: #00F5D4;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -419,10 +410,9 @@ a {
   }
 
   .contact-section button:hover {
-    background: #ff4da6;
+    background: #00F5D4;
   }
   .msg {
-  
   height: 570px;
   width: 40%;
   margin-left: 0; 
@@ -439,10 +429,10 @@ a {
     width: 500px;
     margin: 20px;
     border-width: 3px;
-    border-color: deeppink;
+    border-color: #00F5D4;
   }
   .con{
-    border-color: hotpink;
+    border-color: #00F5D4;
     border-width: 3px;
     border-radius: 15px;
     height: 120px;
@@ -458,7 +448,7 @@ a {
     padding-left: 20px;
     padding-top: 5px;
     letter-spacing: 0.5px;
-    color: hotpink;
+    color: #00F5D4;
   }
   .send{
     cursor: pointer;
@@ -467,7 +457,7 @@ a {
     margin: 20px;
     height: 35px;
     width: 510px;
-    background-color: deeppink;
+    background-color: #00F5D4;
   }
   .start::placeholder { 
   font-size: 16px;    
@@ -484,10 +474,10 @@ a {
 .send::placeholder{
   color: #000000;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 25px;
 }
 .det {
-  color: deeppink;
+  color: #00F5D4;
   width: 40%;
   padding-top: 250px; 
 }
@@ -498,6 +488,7 @@ a {
   width: 100%;
 }
 .social-icons2 {
+  margin-left: 65px;
   margin-top: 15px;
   display: flex;
   gap:115px;
@@ -515,12 +506,9 @@ a {
     font-size: 1.2rem;
     letter-spacing: 0.5px;
     padding-left: 450px;
-    
 }
 .a12{
-
-    color: hotpink;
-
+    color: #00F5D4;
 }
 .closing p {
     margin: 5px 0;
@@ -541,12 +529,10 @@ a {
   z-index: 9999;
   transition: all 0.3s ease-in-out;
 }
-
 #popup-message.show {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-
 .hidden {
   display: none;
 }
@@ -557,7 +543,6 @@ a {
   background: #f8f8f8;
   text-align: center;
 }
-
 .section-title {
   border-color: #000000;
   border-width: 2px;
@@ -566,7 +551,6 @@ a {
   color: #000000;
   font-family: 'Poppins', sans-serif;
 }
-
 /* Grid Layout */
 .project-grid {
   padding-left: 65px;
@@ -575,26 +559,22 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
-
 /* Card Styling */
 .project-card {
-  background: white,inherit;
+  background: #F9FAFB,inherit;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
 }
-
 .project-card:hover {
   transform: translateY(-8px);
 }
-
 .project-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-
 .project-card h3 {
   padding-left: 5px;
   font-size: 1.2rem;
@@ -602,7 +582,6 @@ a {
   color: #000000,inherit;
   font-family: 'Poppins', sans-serif;
 }
-
 /* Buttons */
 .project-buttons {
   display: flex;
@@ -610,30 +589,24 @@ a {
   gap: 10px;
   padding: 15px;
 }
-
 .btn {
   padding: 8px 16px;
   border-radius: 8px;
-  background: hotpink;
+  background: #00F5D4;
   color: white;
   text-decoration: none;
   font-size: 0.9rem;
   transition: background 0.3s ease;
 }
-
 .btn:hover {
-  background: #ff4da6;
+  background:#00F5D4;
 }
-
 .btn.secondary {
   background: #555;
 }
-
 .btn.secondary:hover {
   background: #333;
 }
-/* Your existing CSS here... */
-
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .container {
@@ -661,7 +634,6 @@ a {
     font-size: 1rem;
   }
 }
-
 @media (max-width: 600px) {
   .in {
     font-size: 2rem;
@@ -680,4 +652,3 @@ a {
     padding: 30px 10px;
   }
 }
-
