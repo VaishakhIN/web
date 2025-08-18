@@ -26,12 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateButtonStyle() {
     if (body.classList.contains("dark-mode")) {
-      themeToggle.style.backgroundColor = "deeppink";
-      themeToggle.style.color = "white";
+      themeToggle.style.backgroundColor = "#00F5D4";
+      themeToggle.style.color = "#F9FAFB";
       themeToggle.textContent = "Light"; 
     } else {
-      themeToggle.style.backgroundColor = "hotpink";
-      themeToggle.style.color = "black";
+      themeToggle.style.backgroundColor = "#00F5D4";
+      themeToggle.style.color = " #0D1117";
       themeToggle.textContent = "Dark";  
     }
   }
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateButtonLabels(isDark) {
     const buttons = document.querySelectorAll('.theme-btn');
     buttons.forEach(btn => {
-      btn.style.borderColor = isDark ? "deeppink" : "hotpink";
-      btn.style.color = isDark ? "white" : "black";
+      btn.style.borderColor = isDark ? "#00F5D4" : "#00F5D4";
+      btn.style.color = isDark ? "#F9FAFB" : " #0D1117";
     });
   }
 });
