@@ -799,7 +799,10 @@ a {
     margin: 8px 0;
   }
 }
-
+.det, .closing {
+  display: block;
+  width: 100%;
+}
 /* ==================== MOBILE DEVICES ==================== */
 @media (max-width: 600px) {
   .in {
@@ -846,4 +849,5 @@ a {
     margin: 6px 0;
   }
 }
+
 
