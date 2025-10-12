@@ -7,7 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Use a pseudo-element for a glowing, blurred shape */
 body::before {
     content: '';
     position: absolute;
@@ -15,18 +14,15 @@ body::before {
     left: -20%;
     width: 50vw;
     height: 50vh;
-    border-radius: 50%; /* Creates a circle/oval shape */
-    
-    /* Purple to Teal Glowing Gradient */
+    border-radius: 50%; 
+
     background: radial-gradient(circle, 
-        rgba(106, 83, 249, 0.4) 0%, /* Purple center */
-        rgba(83, 249, 233, 0.1) 40%, /* Teal outer edge */
+        rgba(106, 83, 249, 0.4) 0%, 
+        rgba(83, 249, 233, 0.1) 40%, 
         transparent 70%
     );
-    filter: blur(150px); /* Heavy blur is key to the glow */
+    filter: blur(150px); 
     z-index: 1;
-    
-    /* Apply a very slow animation to make it drift (like we discussed) */
     animation: slow-drift 30s ease-in-out infinite alternate;
 }
 
@@ -46,25 +42,23 @@ body {
   margin: 0;
   padding-top: 150px; 
 }
-/* Navbar container */
+
 .controlframe {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 120px; /* Fixed height */
-  /* Apply this to your header or nav element */
+  height: 120px; 
   background-color: #100D1A;
   background-image: radial-gradient(
     circle at 50% 100%, 
-    rgba(106, 83, 249, 0.05) 0%, /* Very faint purple light at the bottom center */
-    rgba(16, 13, 26, 1) 70%      /* Fade to dark */
+    rgba(106, 83, 249, 0.05) 0%, 
+    rgba(16, 13, 26, 1) 70%     
   );
-  /* Add a very fine line at the bottom for separation */
   border-bottom: 1px solid rgba(106, 83, 249, 0.15); 
   display: flex;
-  align-items: flex-end; /* Move content closer to bottom line */
-  justify-content: center; /* Center buttons horizontally */
+  align-items: flex-end; 
+  justify-content: center; 
   padding: 0 80px;
   box-sizing: border-box;
   border-bottom: 1px solid #6A53F9;
@@ -73,11 +67,10 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Logo */
 .head {
   position: absolute;
   left: 80px;
-  bottom: 20px; /* aligns logo closer to bottom */
+  bottom: 20px;
   color: #fff;
   font-size: 2.8rem;
   font-weight: bold;
@@ -87,19 +80,16 @@ body {
 .head1 {
   color: #00F5D4;
 }
-
-/* Button container */
 .button-group {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
   flex-wrap: wrap;
-  margin-bottom: 15px; /* fine-tune distance from bottom border */
+  margin-bottom: 15px; 
   transition: all 0.3s ease;
 }
 
-/* Nav buttons */
 .theme-btn {
   background: none;
   border: none;
@@ -113,7 +103,6 @@ body {
   transition: color 0.3s ease;
 }
 
-/* Hover underline animation */
 .theme-btn::after {
   content: '';
   position: absolute;
@@ -131,9 +120,6 @@ body {
   width: 100%;
 }
 
-/* ---------- Responsive Adjustments ---------- */
-
-/* Medium screens (tablets, small laptops) */
 @media (max-width: 992px) {
   .controlframe {
     padding: 0 40px;
@@ -152,15 +138,13 @@ body {
     font-size: 13px;
   }
 }
-
-/* Small screens (phones) */
 @media (max-width: 768px) {
   .controlframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 15px 20px;
-    height: 110px; /* auto height for stacking */
+    height: 110px; 
   }
 
   .head {
@@ -191,7 +175,6 @@ body {
   }
 }
 
-/* Very small screens (under 480px) */
 @media (max-width: 480px) {
   .head {
     font-size: 1.8rem;
@@ -205,13 +188,15 @@ body {
     font-size: 13px;
   }
 }
-section{
+section {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  min-height: auto ;
-
+  width: 100vw;        
+  min-height: auto;    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .color4{
   background-color:#1A162B;
@@ -350,13 +335,13 @@ section{
  box-shadow: 0 0 20px rgba(1, 128, 239, 0.2);
   align-items: last baseline;
   border-radius: 50%;
-  margin: 0 150px 0 0; /* right spacing only */
+  margin: 0 150px 0 0;
   vertical-align: middle;
 }
 
 @media (max-width: 1024px) {
   .me {
-    margin: 0 50px 0 0; /* smaller right spacing for tablets */
+    margin: 0 50px 0 0; 
   }
 }
 
@@ -701,7 +686,6 @@ a {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
 }
-/* Grid Layout */
 .project-grid {
   padding-left: 65px;
   padding-bottom: 20px;
@@ -710,7 +694,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
-/* Card Styling */
+
 .project-card {
   border: 2px solid #00F5D4;
   box-shadow: 0 0 10px #1c564f, 0 0 30px rgba(99, 167, 152, 0.5);
@@ -736,7 +720,7 @@ a {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
 }
-/* Buttons */
+
 .project-buttons {
   display: flex;
   justify-content: center;
@@ -761,48 +745,85 @@ a {
 .btn.secondary:hover {
   background: #000000;
 }
-/* Responsive adjustments */
+
 @media (max-width: 1024px) {
   .container {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .msg, .det {
     width: 100%;
     padding-top: 20px;
+    text-align: center;
   }
+
+  .det h2 {
+    font-size: 1.8rem;
+  }
+
+  .det h3 {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   .start, .con, .send {
     width: calc(100% - 40px);
   }
-  .det {
-    padding-top: 50px;
-    text-align: center;
-  }
+
   .social-icons2 {
     justify-content: center;
     gap: 40px;
   }
+
   .closing {
-    padding-left: 0;
     padding: 50px 20px;
     font-size: 1rem;
+    text-align: center;
+  }
+
+  .closing p {
+    margin: 10px 0;
   }
 }
+
+
 @media (max-width: 600px) {
   .in {
     font-size: 2rem;
     padding-left: 0;
     text-align: center;
   }
+
   .start, .con, .send {
     width: 100%;
     margin: 10px 0;
   }
+
   .social-icons2 {
     gap: 20px;
   }
-  .closing {
+
+  .det {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .det h2 {
+    font-size: 1.5rem;
+  }
+
+  .det h3 {
     font-size: 0.95rem;
+  }
+
+  .closing {
+    font-size: 0.9rem;
     padding: 30px 10px;
+    text-align: center;
+  }
+
+  .closing p {
+    margin: 8px 0;
   }
 }
