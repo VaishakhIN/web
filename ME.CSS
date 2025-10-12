@@ -746,6 +746,7 @@ a {
   background: #000000;
 }
 
+/* ==================== TABLETS AND SMALL LAPTOPS ==================== */
 @media (max-width: 1024px) {
   .container {
     flex-wrap: wrap;
@@ -755,39 +756,51 @@ a {
   .msg, .det {
     width: 100%;
     padding-top: 20px;
-    text-align: center;
-  }
-
-  .det h2 {
-    font-size: 1.8rem;
-  }
-
-  .det h3 {
-    font-size: 1rem;
-    line-height: 1.6;
   }
 
   .start, .con, .send {
     width: calc(100% - 40px);
   }
 
+  /* Center the contact section */
+  .det {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .det h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .det h3 {
+    font-size: 1rem;
+    margin: 6px 0;
+  }
+
+  /* Center and space icons */
   .social-icons2 {
     justify-content: center;
     gap: 40px;
   }
 
+  /* Footer section */
   .closing {
+    width: 100%;
     padding: 50px 20px;
     font-size: 1rem;
     text-align: center;
+    line-height: 1.6;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .closing p {
-    margin: 10px 0;
+    margin: 8px 0;
   }
 }
 
-
+/* ==================== MOBILE DEVICES ==================== */
 @media (max-width: 600px) {
   .in {
     font-size: 2rem;
@@ -800,30 +813,37 @@ a {
     margin: 10px 0;
   }
 
-  .social-icons2 {
-    gap: 20px;
-  }
-
+  /* Contact section */
   .det {
     padding-top: 40px;
     text-align: center;
   }
 
   .det h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
   }
 
   .det h3 {
     font-size: 0.95rem;
   }
 
+  /* Social icons */
+  .social-icons2 {
+    gap: 20px;
+  }
+
+  /* Footer */
   .closing {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     padding: 30px 10px;
     text-align: center;
+    line-height: 1.5;
+    margin-top: 30px;
   }
 
   .closing p {
-    margin: 8px 0;
+    margin: 6px 0;
   }
 }
+
