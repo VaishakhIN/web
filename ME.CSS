@@ -788,7 +788,83 @@ a {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .social-icons2 {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+
+    .det {
+        padding-top: 110px;
+        text-align: center;
+        padding-bottom: 30px; 
+    }
+
+    .det h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px; 
+    }
+
+    .contact-group {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .det h3 {
+        font-size: 1rem;
+        line-height: 1.5;  
+        margin: 10px 0;
+        text-align: center; 
+        width: 100%; 
+    }
+    .icon-btn1{
+      padding-left: 0px;
+      padding-right: 45px;
+    }
+  }
+@media (max-width: 480px) {
+  .social-icons2 {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+
+    .det {
+        padding-top: 110px;
+        text-align: center;
+        padding-bottom: 30px; 
+    }
+
+    .det h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px; 
+    }
+
+    .contact-group {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .det h3 {
+        font-size: 1rem;
+        line-height: 1.5;  
+        margin: 10px 0;
+        text-align: center; 
+        width: 100%; 
+    }
+    .icon-btn1{
+      padding-left: 0px;
+      padding-right: 45px;
+    }
+  }
+@media (max-width: 992px) {
   .social-icons2 {
     align-items: center;
     justify-content: center;
@@ -827,6 +903,7 @@ a {
     }
   }
 
+
 .foot{
   display: flex;
   justify-content: space-between;
@@ -852,3 +929,4 @@ a {
 .closing p {
     margin: 5px 0;
 }
+
