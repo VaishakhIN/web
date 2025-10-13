@@ -1,5 +1,3 @@
-alert("JS loaded!");
-
 console.log("JS file loaded");
 document.addEventListener('DOMContentLoaded', function() {
   console.log("DOM fully loaded and parsed");
@@ -47,4 +45,5 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error("Form element not found");
   }
 });
+
 
