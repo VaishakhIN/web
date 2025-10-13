@@ -1,5 +1,14 @@
 console.log("JS file loaded");
 document.addEventListener('DOMContentLoaded', function() {
+console.log("Form element:", form);
+if (form) {
+  console.log("Form exists, adding submit listener");
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    console.log("Submit triggered");
+  });
+}
+
   console.log("DOM fully loaded and parsed");
 
   emailjs.init("YZ37YH0vTZOHKIdZ_");
@@ -45,5 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error("Form element not found");
   }
 });
+
 
 
