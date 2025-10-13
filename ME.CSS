@@ -812,7 +812,7 @@ a {
 
 
     .det {
-        padding-top: 110px;
+        margin-top: 110px;
         text-align: center;
         padding-bottom: 30px; 
     }
@@ -944,6 +944,7 @@ a {
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
