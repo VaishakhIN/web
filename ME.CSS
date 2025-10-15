@@ -812,7 +812,7 @@ a {
 
 
     .det {
-        margin-top: 50px;
+        margin-top: 80px;
         text-align: center;
         padding-bottom: 30px; 
     }
@@ -850,7 +850,7 @@ a {
 
 
     .det {
-        padding-top: 50px;
+        padding-top: 80px;
         text-align: center;
         padding-bottom: 30px; 
     }
@@ -888,7 +888,7 @@ a {
 
 
     .det {
-        padding-top: 50px;
+        padding-top: 80px;
         text-align: center;
         padding-bottom: 30px; 
     }
@@ -944,6 +944,7 @@ a {
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
