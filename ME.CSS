@@ -930,13 +930,16 @@ a {
 .foot{
 height: 500px;
 }
+}
 @media (max-width: 480px) {
 .foot{
 height: 500px;
 }
+}
 @media (max-width: 768px) {
 .foot{
 height: 500px;
+}
 }
 
 .closing {
@@ -947,7 +950,7 @@ height: 500px;
     width: 100%;
     height: 200px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 30px;
     box-sizing: content-box;
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
@@ -956,6 +959,7 @@ height: 500px;
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
