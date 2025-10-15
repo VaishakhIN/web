@@ -924,21 +924,30 @@ a {
   justify-content: space-between;
   gap: 20px; 
   width: 100%;
-  height: 100px;
+  height: 50px;
 } 
 @media (max-width: 992px) {
 .foot{
-height: 200px;
+height: 100px;
+}
+.closing{
+padding-top: 50px;
 }
 }
 @media (max-width: 480px) {
 .foot{
-height: 200px;
+height: 100px;
+}
+.closing{
+padding-top: 50px;
 }
 }
 @media (max-width: 768px) {
 .foot{
-height: 200px;
+height: 100px;
+}
+.closing{
+padding-top: 50px;
 }
 }
 
@@ -948,7 +957,7 @@ height: 200px;
    align-content: center;
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 120px;
     text-align: center;
     padding-top: 30px;
     box-sizing: content-box;
@@ -959,6 +968,7 @@ height: 200px;
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
