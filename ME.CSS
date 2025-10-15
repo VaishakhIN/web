@@ -924,11 +924,11 @@ a {
   justify-content: space-between;
   gap: 20px; 
   width: 100%;
-  height: 50px;
+  height: 150px;
 } 
 @media (max-width: 992px) {
 .foot{
-height: 110px;
+height: 440px;
 }
 .closing{
 padding-top: 100px;
@@ -936,7 +936,7 @@ padding-top: 100px;
 }
 @media (max-width: 480px) {
 .foot{
-height: 110px;
+height: 440px;
 }
 .closing{
 padding-top: 100px;
@@ -944,7 +944,7 @@ padding-top: 100px;
 }
 @media (max-width: 768px) {
 .foot{
-height: 110px;
+height: 440px;
 }
 .closing{
 padding-top: 100px;
@@ -968,6 +968,7 @@ padding-top: 100px;
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
