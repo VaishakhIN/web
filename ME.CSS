@@ -935,7 +935,7 @@ a {
     width: 100%;
     height: 350px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
     box-sizing: content-box;
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
@@ -944,6 +944,7 @@ a {
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
