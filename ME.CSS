@@ -928,26 +928,26 @@ a {
 } 
 @media (max-width: 992px) {
 .foot{
-height: 100px;
+height: auto;
 }
 .closing{
-padding-top: 50px;
+padding-top: 100px;
 }
 }
 @media (max-width: 480px) {
 .foot{
-height: 100px;
+height: auto;
 }
 .closing{
-padding-top: 50px;
+padding-top: 100px;
 }
 }
 @media (max-width: 768px) {
 .foot{
-height: 100px;
+height: auto;
 }
 .closing{
-padding-top: 50px;
+padding-top: 100px;
 }
 }
 
@@ -968,6 +968,7 @@ padding-top: 50px;
 .closing p {
     margin: 5px 0;
 }
+
 
 
 
