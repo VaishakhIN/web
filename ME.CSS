@@ -454,7 +454,6 @@ a {
   justify-content: center;
   text-align: center;
   padding: 10px;
-  border: 2px solid #00F5D4;
   box-shadow: 0 0 10px #1c564f, 0 0 20px rgba(99, 167, 152, 0.5);
 }
 .skill-item img {
@@ -957,6 +956,7 @@ a {
 .closing p {
   margin: 5px 0;
 }
+
 
 
 
